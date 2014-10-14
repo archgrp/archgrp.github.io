@@ -1,0 +1,38 @@
+/* ==========================================================================
+   DONATELY
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.donately-donation-form {
+	background-color: #446E82;
+  padding: 4px;
+}
+
+label.donately-label {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.donately-secure-fields label.donately-label {
+  color: #446E82;
+}
+
+label.donately-label[for=donately-first-name],
+label.donately-label[for=donately-last-name],
+label.donately-label[for=donately-email] {
+  padding-left: 8px;
+}
+
+.donately-btn.donately-submit {
+  border: none;
+  background-image: none;
+  background-color: #239BE0;
+  border-radius: 0px;
+  text-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  padding: 12px 40px;
+}
