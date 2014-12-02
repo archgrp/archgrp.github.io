@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	jQuery( window ).load(function() {
+	  function receiveMessage(event){
+	    try {var data = JSON.parse(event.data);}
+	    catch (e) {var data = event.data;}
+	    if(data.event == 'donately.loaded'){
+	      jQuery('#donately-one-time-donation').prop('checked', false);
+	      jQuery('#donately-recurring-donation').prop('checked', true);
+	      jQuery('#donately-amount').attr('placeholder', '18');
+	    }
+	  }
+	  if (window.addEventListener){
+	    window.addEventListener('message', receiveMessage, false);
+	  }
+	  else {
+	    window.attachEvent('message', receiveMessage);
+	  }
+	});
+	</script>
+</head>
+<body>
+	<center><h3>Behold, the form!</h3></center>
+	<div style="width:400px;margin:50px auto">
+ 
+		<script src='https://www.dntly.com/assets/js/v1/form.js' 
+		  data-donately-id='198'
+		  data-donately-ssl='true'  
+		  data-donately-onbehalf='true'>
+		</script>
+ 
+	</div>
+</body>
+</html>
