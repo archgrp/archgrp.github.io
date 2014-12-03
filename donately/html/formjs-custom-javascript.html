@@ -4,7 +4,8 @@
 	<title>test</title>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript">
-	jQuery( window ).load(function() {
+	jQuery(document).ready(function() {
+	  console.log('ready')
 	  function receiveMessage(event){
 	  	console.log('receiveMessage', event)
 	    try {var data = JSON.parse(event.data);}
