@@ -10,6 +10,7 @@
 	  	console.log('receiveMessage', event)
 	    try {var data = JSON.parse(event.data);}
 	    catch (e) {var data = event.data;}
+	    console.log('data', data, jQuery('#donately-amount'))
 	    if(data.event == 'donately.loaded'){
 	      jQuery('#donately-one-time-donation').prop('checked', false);
 	      jQuery('#donately-recurring-donation').prop('checked', true);
