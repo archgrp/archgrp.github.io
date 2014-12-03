@@ -5,19 +5,17 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		jQuery( window ).load(function() {
-			console.log('ready')
+			// the form must be on a securpage (no iFrame) for this selector to work
 			jQuery('#donately-amount').attr('placeholder', '18');
 		});
 	</script>
 </head>
 <body>
-	<center><h3>Behold, the form!</h3></center>
 	<div style="width:400px;margin:50px auto">
  
 		<script src='https://www.dntly.com/assets/js/v1/form.js' 
 		  data-donately-id='198'
-		  data-donately-ssl='true'  
-		  data-donately-onbehalf='true'>
+		  data-donately-ssl='true'>
 		</script>
  
 	</div>
