@@ -3,3 +3,26 @@
    ========================================================================== */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.donately-donation-form, .donately-thank-you {
+  font-size: 12px;
+  line-height: 1em;
+  position: center;
+  min-width: 200px;
+  max-width: 400px;   
+  margin: 50;
+  background-image: http://static1.squarespace.com/static/52f2bc6fe4b0877c0db2d64d/t/530476a8e4b0f2cfe76621ae/1480318491985/?format=1500w;
+}
+
+.donately-btn.donately-submit {
+  border: none;
+  background-image: none;
+  background-color: #239BE0;
+  border-radius: 0px;
+  text-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  padding: 12px 40px;
+}
