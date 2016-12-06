@@ -13,7 +13,7 @@
   margin: 0;
 }
 .donately-donation-form, .donately-thank-you {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1em;
   position: relative;
   min-width: 270px;
