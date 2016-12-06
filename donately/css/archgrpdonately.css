@@ -13,14 +13,12 @@
   margin: 0;
 }
 .donately-donation-form, .donately-thank-you {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1em;
   position: center;
   min-width: 200px;
   max-width: 400px;   
   margin: 50;
-  background-image: http://static1.squarespace.com/static/52f2bc6fe4b0877c0db2d64d/t/530476a8e4b0f2cfe76621ae/1480318491985/?format=1500w;
-
 }
 .donately-donation-form::-webkit-input-placeholder, .donately-thank-you::-webkit-input-placeholder, .donately-donation-form:-moz-placeholder, .donately-thank-you:-moz-placeholder {
   color: #d3d3d3;
@@ -110,7 +108,7 @@ input.donately-text-input {
   width: auto;
   font-family: inherit;
   margin: 0;
-  font-size: 1.38em;
+  font-size: 1.2em;
   padding: 0.5em 0.5em;
   display: block;
   background-color: #fff;
@@ -175,7 +173,7 @@ label.donately-dollar-sign {
   position: absolute;
   left: 0.3em;
   top: 0.43em;
-  font-size: 2.31em;
+  font-size: 1.5em;
   font-weight: normal;
   color: #333;
   z-index: 500;
