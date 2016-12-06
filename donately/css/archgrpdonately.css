@@ -317,7 +317,7 @@ input#donately-card-number.donately-cc-discover {
   font-family: inherit;
   -webkit-appearance: none;
   margin: 0;
-  font-size: 1.23em;
+  font-size: 1.0em;
   font-weight: bold;
   vertical-align: middle;
   border-radius: 3px;
@@ -328,7 +328,7 @@ input#donately-card-number.donately-cc-discover {
   color: #fff;
   border: 1px solid transparent;
   outline: none;
-  background: #2dad61;
+  background: #2E57AA;
   padding: 10px 20px;
   cursor: pointer;
 }
@@ -444,16 +444,16 @@ input.donately-error {
   color: red;
 }
 .donately-thank-you-header {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 300;
   line-height: 1.2em;
 }
 .donately-receipt-header, .donately-share-header, .donately-signup-header {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1em;
 }
 .donately-share-header {
-  margin: 44px 0 15px;
+  margin: 20px 0 15px;
 }
 .donately-signup-header {
   margin-top: 45px;
@@ -483,9 +483,9 @@ input.donately-error {
   position: relative;
 }
 .donately-social-btn a {
-  width: 100%;
+  width: 50%;
   height: 100%;
-  position: absolute;
+  position: center;
   left: 0;
   top: 0;
 }
