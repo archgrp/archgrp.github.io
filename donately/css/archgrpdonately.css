@@ -19,6 +19,7 @@
   min-width: 200px;
   max-width: 400px;   
   margin: 50;
+  background-image: url("http://static1.squarespace.com/static/52f2bc6fe4b0877c0db2d64d/t/530476a8e4b0f2cfe76621ae/1480318491985/?format=1500w");
 }
 .donately-donation-form::-webkit-input-placeholder, .donately-thank-you::-webkit-input-placeholder, .donately-donation-form:-moz-placeholder, .donately-thank-you:-moz-placeholder {
   color: #d3d3d3;
