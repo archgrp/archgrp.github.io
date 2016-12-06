@@ -16,7 +16,7 @@
   font-size: 12px;
   line-height: 1em;
   position: relative;
-  min-width: 270px;
+  min-width: 200px;
   margin: 0 auto;
 }
 .donately-donation-form::-webkit-input-placeholder, .donately-thank-you::-webkit-input-placeholder, .donately-donation-form:-moz-placeholder, .donately-thank-you:-moz-placeholder {
